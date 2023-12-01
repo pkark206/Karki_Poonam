@@ -28,7 +28,7 @@ bd$height[bd$height == 69.5] <- 29.5
 # Calculate correlation matrix
 cor_matrix <- cor(bd)
 
-# mean(bd$bfBrozek)
+# mean of bfbrosek and bfsiri
 bd$bodyfat <-apply(bd[,2:3],1,mean)
 head(bd)
 
